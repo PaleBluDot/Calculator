@@ -7,7 +7,7 @@ var starting = 0;
 
 // this adds the animation
 // to the clear button
-$("#clear")(function(){
+$("#clear").click(function(){
     $(this).addClass('clear-button');
     $("#results-container").addClass('cleared-results');
     setTimeout(function() {
