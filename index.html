@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Calculator</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Portfolio of graphic designer and calligraphy of Pavel Sanchez">
+		<meta name="author" content="Pavel Sanchez">
+		<meta name="theme-color" content=" #dd0938">
+		<!--SCALEABLE SCREEN-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600 ,700,900|Merriweather:300,400,700,900" rel="stylesheet">
+		<!-- FONT AWESOME -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- SKELETON -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/main-min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="results">
+				<div class="round-highlight"></div>
+				<div id="results-container">
+					<div id="numbers-entered"></div>
+					<div id="calculation-results"><storng>42</storng></div>
+				</div>
+				<div id="clear" class="clear-container">
+					<i class="fa fa-angle-left clear-arrow" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="key-bg">
+				<div class="overlay"></div>
+				<div class="key-container">
+				    <!-- Each row is a line has the set of keys -->
+					<div class="key-row">
+						<div id="num7" class="numbers keys">7</div>
+						<div id="num8" class="numbers keys">8</div>
+						<div id="num9" class="numbers keys">9</div>
+						<div id="divison" class="operator keys">/</div>
+					</div>
+					<div class="key-row">
+						<div id="num4" class="numbers keys">4</div>
+						<div id="num5" class="numbers keys">5</div>
+						<div id="num6" class="numbers keys">6</div>
+						<div id="multiply" class="operator keys">*</div>
+					</div>
+					<div class="key-row">
+						<div id="num1" class="numbers keys">1</div>
+						<div id="num2" class="numbers keys">2</div>
+						<div id="num3" class="numbers keys">3</div>
+						<div id="plus" class="operator keys">+</div>
+					</div>
+					<div class="key-row">
+						<div id="num0" class="numbers keys">0</div>
+						<div id="period" class="keys">.</div>
+						<div id="equals" class="operator keys">=</div>
+						<div id="minus" class="operator keys">-</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+		<!-- Sentry.io -->
+		<script src="https://browser.sentry-cdn.com/4.3.0/bundle.min.js" crossorigin="anonymous"></script>
+		<!-- My JS file -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
