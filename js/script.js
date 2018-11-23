@@ -7,12 +7,11 @@ var starting = 0;
 
 // this adds the animation
 // to the clear button
-$("#clear").click(function(){
+$("#clear")click(function(){
     $(this).addClass('clear-button');
     $("#results-container").addClass('cleared-results');
     setTimeout(function() {
         total.text('0');
-
     }, 1500)
 })
 
@@ -37,7 +36,7 @@ var operator = $('.operator');
 var total =  $('#calculation-results');
 
 // gets the html value of each key
-$(".keys").click(function() {
+$(".keys").click(functio() {
     var clickedDigit = $(this).html();
     var currentVal = numOne.text();
     var newVal;
